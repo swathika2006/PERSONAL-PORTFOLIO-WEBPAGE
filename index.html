@@ -1,73 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Basic page setup -->
+  <!-- Character set and responsiveness settings -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Eswari Swathika | Portfolio</title>
-  <!-- Link to external CSS file -->
+
+  <!-- Page Title -->
+  <title>My Projects | Eswari Swathika</title>
+
+  <!-- Link to external CSS for styling -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- ==========================
-       Navigation Bar
-  ============================ -->
-  <nav class="navbar">
-    <!-- Logo or Site Title -->
-    <div class="logo">PORTFOLIO</div>
-
-    <!-- Navigation Links -->
-    <ul class="nav-links">
-      <li><a href="#">Home</a></li>
-
-      <!-- Dropdown menu for Contact -->
-      <li class="dropdown">
-        <a href="#">Contact</a>
-        <ul class="dropdown-content">
-          <li>Email: <a href="mailto:eswariswathika@gmail.com">eswariswathika@example.com</a></li>
-          <li>Phone: <a href="tel:+911234567890">+91 12345 67890</a></li>
-          <li>Location: India</li>
-        </ul>
-      </li>
-
-      <!-- External Links -->
-      <li><a href="https://www.linkedin.com/in/eswari-swathika-n-581499329/">LinkedIn</a></li>
-      <li><a href="https://github.com/swathika2006">Github</a></li>
-      <li><a href="http://127.0.0.1:5500/projects/index.html">My projects</a></li>
-      <li><a href="https://leetcode.com/u/ESWARI_SWATHIKA/">Leetcode</a></li>
-    </ul>
-  </nav>
-
-  <!-- ==========================
-       Hero Section
-  ============================ -->
-  <header class="hero">
-    <div class="hero-text">
-      <!-- Welcome text -->
-      <p>WELCOME TO MY WORLD</p>
-
-      <!-- Name and Title -->
-      <h1>Hi, I'm <span class="highlight">Eswari Swathika</span><br> 
-      a <span class="highlight">Frontend-Developer.</span></h1>
-
-      <!-- Short Bio -->
-      <p class="sub-text">
-        I create powerful web applications and engaging user experiences.
-        Passionate about full stack development and design.
-      </p>
-    </div>
-
-    <!-- Profile Image -->
-    <div class="hero-img">
-      <img src="icon.jpeg" alt="Profile Image">
-    </div>
+  <!-- ================================
+       Header Section (Page Intro)
+  ================================== -->
+  <header>
+    <h1>My Projects</h1>
+    <p>A showcase of my work</p>
   </header>
 
-  <!-- ==========================
-       JavaScript File Link
-  ============================ -->
-  <script src="script.js"></script>
+  <!-- ================================
+       Projects Section (Cards Layout)
+  ================================== -->
+  <section class="projects">
+
+    <!-- Project 1 Card -->
+    <div class="project-card">
+      <!-- Project thumbnail image -->
+      <img src="image2.png" alt="Project 1 Screenshot">
+
+      <!-- Project title -->
+      <h3>Chat Application</h3>
+
+      <!-- Short project description -->
+      <p>Real-time chat app using Node.js & Socket.io. It personalizes user experience using chat-rooms.</p>
+
+      <!-- Link to live project -->
+      <a href="https://your-live-chat-app-link.com" target="_blank">View Project</a>
+    </div>
+
+    <!-- Project 2 Card -->
+    <div class="project-card">
+      <img src="images1.png" alt="Project 2 Screenshot">
+      <h3>Quiz Website</h3>
+      <p>This website is an interactive web application that allows users to answer a set of questions.</p>
+      <!-- Localhost link (only works on your computer during development) -->
+      <a href="http://127.0.0.1:5500/index.html" target="_blank">View Project</a>
+    </div>
+
+  </section>
+
+  <!-- ================================
+       Footer Section
+  ================================== -->
+  <footer>
+    <p>© 2025 Eswari Swathika. All rights reserved.</p>
+  </footer>
 
 </body>
 </html>
